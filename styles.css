@@ -8,6 +8,8 @@ body {
   align-items: baseline;
   padding: .5rem;
   gap: 1rem;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .link {
@@ -48,4 +50,21 @@ body {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
+}
+
+.information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 2rem;
+}
+
+.dropdown-links {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.login-form > input {
+    margin-bottom: .5rem;
+
 }
